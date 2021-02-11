@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{D53F969B-0C81-42B0-9C49-2F3698521E02}|Default">
+  <MonoDevelop.Ide.ItemProperties.ChartsDemo FirstBuild="True" PreferredExecutionTarget="/Applications/Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChartsDemo" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
