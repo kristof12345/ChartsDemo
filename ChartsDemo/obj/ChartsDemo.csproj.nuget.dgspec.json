@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kristof/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj": {}
+    "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj": {}
   },
   "projects": {
-    "/Users/kristof/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj": {
+    "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kristof/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj",
+        "projectUniqueName": "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj",
         "projectName": "ChartsDemo",
-        "projectPath": "/Users/kristof/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj",
+        "projectPath": "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj",
         "packagesPath": "/Users/kristof/.nuget/packages/",
-        "outputPath": "/Users/kristof/Projects/ChartsDemo/ChartsDemo/obj/",
+        "outputPath": "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -40,6 +40,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Syncfusion.Blazor.Charts": {
+              "target": "Package",
+              "version": "[18.4.0.39, )"
+            },
+            "Syncfusion.Blazor.Inputs": {
+              "target": "Package",
+              "version": "[18.4.0.39, )"
+            },
+            "Syncfusion.Blazor.ProgressBar": {
+              "target": "Package",
+              "version": "[18.4.0.39, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

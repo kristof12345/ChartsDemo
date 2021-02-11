@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ChartsDemo.Pages
+namespace Common.Web
 {
     #line hidden
     using System;
@@ -13,96 +13,89 @@ namespace ChartsDemo.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 1 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 2 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 3 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 4 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 5 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 6 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 7 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 8 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 9 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using ChartsDemo;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 10 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using ChartsDemo.Shared;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
-    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 4 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Diagrams/PieDiagram.razor"
+using Syncfusion.Blazor.Charts;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class PieDiagram : AppDiagram
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 9 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/Pages/Counter.razor"
-       
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

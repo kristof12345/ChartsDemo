@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ChartsDemo.Pages
+namespace Common.Web
 {
     #line hidden
     using System;
@@ -13,84 +13,83 @@ namespace ChartsDemo.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 1 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 2 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 3 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 4 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 5 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 6 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 7 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 8 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 9 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using ChartsDemo;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+#line 10 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using ChartsDemo.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/Pages/FetchData.razor"
-using ChartsDemo.Data;
+#line 3 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Diagrams/ProgressBar.razor"
+using Syncfusion.Blazor.ProgressBar;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ProgressBar : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,19 +97,31 @@ using ChartsDemo.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "/Users/kristof/Projects/ChartsDemo/ChartsDemo/Pages/FetchData.razor"
+#line 7 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Diagrams/ProgressBar.razor"
        
-    private WeatherForecast[] forecasts;
 
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
-    }
+    [Parameter]
+    public int Data { get; set; }
+
+    [Parameter]
+    public int Min { get; set; } = 0;
+
+    [Parameter]
+    public int Max { get; set; } = 100;
+
+    [Parameter]
+    public string Width { get; set; } = "300px";
+
+    [Parameter]
+    public bool ShowLabel { get; set; } = true;
+
+    [Parameter]
+    public string Color { get; set; } = "blue";
+
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private WeatherForecastService ForecastService { get; set; }
     }
 }
 #pragma warning restore 1591

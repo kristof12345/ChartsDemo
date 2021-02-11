@@ -1,0 +1,13 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/scopedcss/bundle/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Buttons" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.buttons/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Charts" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.charts/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Core" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.core/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Data" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.data/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Inputs" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.inputs/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Popups" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.popups/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.ProgressBar" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.progressbar/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Spinner" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.spinner/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.SplitButtons" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.splitbuttons/18.4.0.39/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.themes/18.4.0.39/build/../staticwebassets/" />
+</StaticWebAssets>
