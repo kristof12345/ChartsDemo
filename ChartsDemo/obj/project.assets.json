@@ -175,13 +175,13 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Syncfusion.Blazor.Charts/18.4.0.35": {
+      "Syncfusion.Blazor.Charts/18.4.0.41": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.35",
-          "Syncfusion.Blazor.Data": "18.4.0.35",
-          "Syncfusion.Blazor.DataVizCommon": "18.4.0.35",
-          "Syncfusion.PdfExport.Net.Core": "18.4.0.35"
+          "Syncfusion.Blazor.Core": "18.4.0.41",
+          "Syncfusion.Blazor.Data": "18.4.0.41",
+          "Syncfusion.Blazor.DataVizCommon": "18.4.0.41",
+          "Syncfusion.PdfExport.Net.Core": "18.4.0.41"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Charts.dll": {}
@@ -196,14 +196,14 @@
           "buildMultiTargeting/Syncfusion.Blazor.Charts.props": {}
         }
       },
-      "Syncfusion.Blazor.Core/18.4.0.35": {
+      "Syncfusion.Blazor.Core/18.4.0.41": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "5.0.0",
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Blazor.Themes": "18.4.0.35",
-          "Syncfusion.Licensing": "18.4.0.35"
+          "Syncfusion.Blazor.Themes": "18.4.0.41",
+          "Syncfusion.Licensing": "18.4.0.41"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Core.dll": {}
@@ -218,10 +218,10 @@
           "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
         }
       },
-      "Syncfusion.Blazor.Data/18.4.0.35": {
+      "Syncfusion.Blazor.Data/18.4.0.41": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.35"
+          "Syncfusion.Blazor.Core": "18.4.0.41"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Data.dll": {}
@@ -236,10 +236,10 @@
           "buildMultiTargeting/Syncfusion.Blazor.Data.props": {}
         }
       },
-      "Syncfusion.Blazor.DataVizCommon/18.4.0.35": {
+      "Syncfusion.Blazor.DataVizCommon/18.4.0.41": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.35"
+          "Syncfusion.Blazor.Core": "18.4.0.41"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.DataVizCommon.dll": {}
@@ -248,7 +248,7 @@
           "lib/net5.0/Syncfusion.Blazor.DataVizCommon.dll": {}
         }
       },
-      "Syncfusion.Blazor.Themes/18.4.0.35": {
+      "Syncfusion.Blazor.Themes/18.4.0.41": {
         "type": "package",
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Themes.dll": {}
@@ -263,7 +263,7 @@
           "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
         }
       },
-      "Syncfusion.Licensing/18.4.0.35": {
+      "Syncfusion.Licensing/18.4.0.41": {
         "type": "package",
         "compile": {
           "lib/netcoreapp5.0/Syncfusion.Licensing.dll": {}
@@ -272,7 +272,7 @@
           "lib/netcoreapp5.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.PdfExport.Net.Core/18.4.0.35": {
+      "Syncfusion.PdfExport.Net.Core/18.4.0.41": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -763,10 +763,10 @@
         "packageIcon.png"
       ]
     },
-    "Syncfusion.Blazor.Charts/18.4.0.35": {
-      "sha512": "MeU4xqCNPRblBIhhMDVmvdBGpK80T/mwELqCZ2NMcK7bq7uVsc76Gb1fVYI/y6e5YlnYNdg/RK/0XCsMstZlgQ==",
+    "Syncfusion.Blazor.Charts/18.4.0.41": {
+      "sha512": "1Z6HpIfyjob7KEHO/7Ql0sKHmFkdRI3lgvQ2oIblewfrI0XD5GIl1+BLFDm/p4QscRlLnkSxpGJzTRdmsXPhkQ==",
       "type": "package",
-      "path": "syncfusion.blazor.charts/18.4.0.35",
+      "path": "syncfusion.blazor.charts/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -776,19 +776,19 @@
         "buildTransitive/Syncfusion.Blazor.Charts.props",
         "lib/net5.0/Syncfusion.Blazor.Charts.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.Charts.dll",
-        "staticwebassets/scripts/accumulationchart-b95530.min.js",
-        "staticwebassets/scripts/chart-b95530.min.js",
-        "staticwebassets/scripts/chartsbase-b95530.min.js",
-        "staticwebassets/scripts/sf-accumulation-chart-b95530.min.js",
-        "staticwebassets/scripts/sf-chart-b95530.min.js",
-        "syncfusion.blazor.charts.18.4.0.35.nupkg.sha512",
+        "staticwebassets/scripts/accumulationchart-5eb58f.min.js",
+        "staticwebassets/scripts/chart-5eb58f.min.js",
+        "staticwebassets/scripts/chartsbase-5eb58f.min.js",
+        "staticwebassets/scripts/sf-accumulation-chart-5eb58f.min.js",
+        "staticwebassets/scripts/sf-chart-5eb58f.min.js",
+        "syncfusion.blazor.charts.18.4.0.41.nupkg.sha512",
         "syncfusion.blazor.charts.nuspec"
       ]
     },
-    "Syncfusion.Blazor.Core/18.4.0.35": {
-      "sha512": "mW5KsZaaYtdUIX7ve0LwLwB8fb4rcpAvFShteyO1ipMNSFGbVsQJK8WEUyLAU/vs+WDPnXB1WCccVOpc7cCF3g==",
+    "Syncfusion.Blazor.Core/18.4.0.41": {
+      "sha512": "WhQbCM1kXmy1Prr9PxCb3/2frqdwg0AMj6sKIaWZURajfg8YlKoAJqgQmslreDDhk1HWEmMSkBq9HnKf3XefXA==",
       "type": "package",
-      "path": "syncfusion.blazor.core/18.4.0.35",
+      "path": "syncfusion.blazor.core/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -798,27 +798,27 @@
         "buildTransitive/Syncfusion.Blazor.Core.props",
         "lib/net5.0/Syncfusion.Blazor.Core.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.Core.dll",
-        "staticwebassets/scripts/compression-b95530.min.js",
-        "staticwebassets/scripts/drawings-b95530.min.js",
-        "staticwebassets/scripts/excelexport-b95530.min.js",
-        "staticwebassets/scripts/fileutils-b95530.min.js",
-        "staticwebassets/scripts/pdfexport-b95530.min.js",
-        "staticwebassets/scripts/popup-b95530.min.js",
-        "staticwebassets/scripts/popupsbase-b95530.min.js",
-        "staticwebassets/scripts/sf-import-b95530.min.js",
-        "staticwebassets/scripts/sf-import-ie-b95530.min.js",
-        "staticwebassets/scripts/sf-svg-export-b95530.min.js",
-        "staticwebassets/scripts/svgbase-b95530.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-b95530.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-extended-b95530.min.js",
-        "syncfusion.blazor.core.18.4.0.35.nupkg.sha512",
+        "staticwebassets/scripts/compression-5eb58f.min.js",
+        "staticwebassets/scripts/drawings-5eb58f.min.js",
+        "staticwebassets/scripts/excelexport-5eb58f.min.js",
+        "staticwebassets/scripts/fileutils-5eb58f.min.js",
+        "staticwebassets/scripts/pdfexport-5eb58f.min.js",
+        "staticwebassets/scripts/popup-5eb58f.min.js",
+        "staticwebassets/scripts/popupsbase-5eb58f.min.js",
+        "staticwebassets/scripts/sf-import-5eb58f.min.js",
+        "staticwebassets/scripts/sf-import-ie-5eb58f.min.js",
+        "staticwebassets/scripts/sf-svg-export-5eb58f.min.js",
+        "staticwebassets/scripts/svgbase-5eb58f.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-5eb58f.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-extended-5eb58f.min.js",
+        "syncfusion.blazor.core.18.4.0.41.nupkg.sha512",
         "syncfusion.blazor.core.nuspec"
       ]
     },
-    "Syncfusion.Blazor.Data/18.4.0.35": {
-      "sha512": "t78MamegU/82aAIt4Grtg193cgGvPD7QhgRs/TVskQSacMfUHgf2S9pkkC5al7UrdaOS4i8b32JP16W69N4uZw==",
+    "Syncfusion.Blazor.Data/18.4.0.41": {
+      "sha512": "5khaLpXTB+SubpbgqHKoC5koktHyZlwm0OdIo31eXATrsrGfj8BYy0LMfTLppXziaP4NCokIwmM+CetcW6DoIw==",
       "type": "package",
-      "path": "syncfusion.blazor.data/18.4.0.35",
+      "path": "syncfusion.blazor.data/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -828,28 +828,28 @@
         "buildTransitive/Syncfusion.Blazor.Data.props",
         "lib/net5.0/Syncfusion.Blazor.Data.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.Data.dll",
-        "staticwebassets/scripts/data-b95530.min.js",
-        "syncfusion.blazor.data.18.4.0.35.nupkg.sha512",
+        "staticwebassets/scripts/data-5eb58f.min.js",
+        "syncfusion.blazor.data.18.4.0.41.nupkg.sha512",
         "syncfusion.blazor.data.nuspec"
       ]
     },
-    "Syncfusion.Blazor.DataVizCommon/18.4.0.35": {
-      "sha512": "FhTwL5BFAe/H4mDcckEkKlWzN1v8frACKXkKnv0ckDpaVZVMuQaMaRXz4vrAen1M8gbfQIRWv/ICcPSQica2ng==",
+    "Syncfusion.Blazor.DataVizCommon/18.4.0.41": {
+      "sha512": "S0YlDlOtBq/akRYl/C2SU09DtFoh5zuFkoY+fsOIvpS5YG7Bdf71haQv3mgsbQewZ0De9UHBru5HobgHmoU1/w==",
       "type": "package",
-      "path": "syncfusion.blazor.datavizcommon/18.4.0.35",
+      "path": "syncfusion.blazor.datavizcommon/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/Syncfusion.Blazor.DataVizCommon.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.DataVizCommon.dll",
-        "syncfusion.blazor.datavizcommon.18.4.0.35.nupkg.sha512",
+        "syncfusion.blazor.datavizcommon.18.4.0.41.nupkg.sha512",
         "syncfusion.blazor.datavizcommon.nuspec"
       ]
     },
-    "Syncfusion.Blazor.Themes/18.4.0.35": {
-      "sha512": "x1Ngpxr8c4kQv0nmTmnY79B+6rlmTgO0V5K1/TrwuZhzQ8NT4Lkut6D0e9h5abVszaQKy0gYXyIxbmwO6TJWbg==",
+    "Syncfusion.Blazor.Themes/18.4.0.41": {
+      "sha512": "r4NxQQEFneDVgNUebMSHln/XbbWHQIVmx9hB0GReJCZAVmfa5sOL4FncYXNVOjbZbfK4lQP55APlUKxuJfjaJQ==",
       "type": "package",
-      "path": "syncfusion.blazor.themes/18.4.0.35",
+      "path": "syncfusion.blazor.themes/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -867,14 +867,14 @@
         "staticwebassets/highcontrast.css",
         "staticwebassets/material-dark.css",
         "staticwebassets/material.css",
-        "syncfusion.blazor.themes.18.4.0.35.nupkg.sha512",
+        "syncfusion.blazor.themes.18.4.0.41.nupkg.sha512",
         "syncfusion.blazor.themes.nuspec"
       ]
     },
-    "Syncfusion.Licensing/18.4.0.35": {
-      "sha512": "OBsBEGSmBIb6rZhPY2TnaAWWDhhNiBF0HWXfIXHuOVB+Tyfv4vkh54eOWlx8CM3Qxi+jbN3ENYxJ/07wE7m1KQ==",
+    "Syncfusion.Licensing/18.4.0.41": {
+      "sha512": "YxRIrICcGoU7a1ABNQoa1qewJYkBZ1NTXa/kftRbr6zkOG0qaGCORBeceN1Y5LQ1r0MFRCO3kxMYTqUmi2O94A==",
       "type": "package",
-      "path": "syncfusion.licensing/18.4.0.35",
+      "path": "syncfusion.licensing/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -896,14 +896,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.18.4.0.35.nupkg.sha512",
+        "syncfusion.licensing.18.4.0.41.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.PdfExport.Net.Core/18.4.0.35": {
-      "sha512": "5mOpCrtFu9HEt3pRKgqp+ugZ3YVgb1Df7Qu4SIpnLd7QMqywsnGIK3St6kfPw6bhOBsDUIVKYdzOxJgdtxAplQ==",
+    "Syncfusion.PdfExport.Net.Core/18.4.0.41": {
+      "sha512": "BEwEavoBABxr8GZ/A6DkTwPd/l7TedWeZr5cTdEuslBvC0aAqvN/AfqdXGqNeTFF4IvtCf/TN/5vmNXdzQ3biw==",
       "type": "package",
-      "path": "syncfusion.pdfexport.net.core/18.4.0.35",
+      "path": "syncfusion.pdfexport.net.core/18.4.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -911,7 +911,7 @@
         "lib/net5.0/Syncfusion.PdfExport.Net.xml",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.dll",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.xml",
-        "syncfusion.pdfexport.net.core.18.4.0.35.nupkg.sha512",
+        "syncfusion.pdfexport.net.core.18.4.0.41.nupkg.sha512",
         "syncfusion.pdfexport.net.core.nuspec"
       ]
     },
@@ -945,7 +945,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Components.Web >= 5.0.3",
-      "Syncfusion.Blazor.Charts >= 18.4.0.35"
+      "Syncfusion.Blazor.Charts >= 18.4.0.41"
     ]
   },
   "packageFolders": {
@@ -995,7 +995,7 @@
           },
           "Syncfusion.Blazor.Charts": {
             "target": "Package",
-            "version": "[18.4.0.35, )"
+            "version": "[18.4.0.41, )"
           }
         },
         "imports": [

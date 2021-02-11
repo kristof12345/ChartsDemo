@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DQivtKLAjiMM3NVknn1HrGEsHPpigz1ru9Ke4QyGX+Izmr8EvjE44eI9Si0Lx85wUUo/YaDWI2tJatar0v2Jeg==",
+  "dgSpecHash": "hyVxw0reDWcDPAX8ReBwHlp8+22dz9c0yUhrYGgQwKxoXqCwgHL15vJQekEEFMZ1npYFKdiPH/7PDT2kDXYBoA==",
   "success": true,
   "projectFilePath": "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/ChartsDemo.csproj",
   "expectedPackageFiles": [
@@ -20,13 +20,13 @@
     "/Users/kristof/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/kristof/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/kristof/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.blazor.charts/18.4.0.35/syncfusion.blazor.charts.18.4.0.35.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.blazor.core/18.4.0.35/syncfusion.blazor.core.18.4.0.35.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.blazor.data/18.4.0.35/syncfusion.blazor.data.18.4.0.35.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.blazor.datavizcommon/18.4.0.35/syncfusion.blazor.datavizcommon.18.4.0.35.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.blazor.themes/18.4.0.35/syncfusion.blazor.themes.18.4.0.35.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.licensing/18.4.0.35/syncfusion.licensing.18.4.0.35.nupkg.sha512",
-    "/Users/kristof/.nuget/packages/syncfusion.pdfexport.net.core/18.4.0.35/syncfusion.pdfexport.net.core.18.4.0.35.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.blazor.charts/18.4.0.41/syncfusion.blazor.charts.18.4.0.41.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.blazor.core/18.4.0.41/syncfusion.blazor.core.18.4.0.41.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.blazor.data/18.4.0.41/syncfusion.blazor.data.18.4.0.41.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.blazor.datavizcommon/18.4.0.41/syncfusion.blazor.datavizcommon.18.4.0.41.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.blazor.themes/18.4.0.41/syncfusion.blazor.themes.18.4.0.41.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.licensing/18.4.0.41/syncfusion.licensing.18.4.0.41.nupkg.sha512",
+    "/Users/kristof/.nuget/packages/syncfusion.pdfexport.net.core/18.4.0.41/syncfusion.pdfexport.net.core.18.4.0.41.nupkg.sha512",
     "/Users/kristof/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []

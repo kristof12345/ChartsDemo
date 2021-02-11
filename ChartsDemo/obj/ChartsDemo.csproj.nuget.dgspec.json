@@ -47,7 +47,7 @@
             },
             "Syncfusion.Blazor.Charts": {
               "target": "Package",
-              "version": "[18.4.0.35, )"
+              "version": "[18.4.0.41, )"
             }
           },
           "imports": [
