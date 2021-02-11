@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{D53F969B-0C81-42B0-9C49-2F3698521E02}|Default">
   <MonoDevelop.Ide.ItemProperties.ChartsDemo PreferredExecutionTarget="/Applications/Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo/_Imports.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo/ChartsDemo.csproj">
     <Files>
-      <File FileName="ChartsDemo/Pages/Index.razor" Line="1" Column="10" />
-      <File FileName="ChartsDemo/Diagrams/ColumnDiagram.razor" Line="1" Column="1" />
-      <File FileName="ChartsDemo/Startup.cs" Line="23" Column="44" />
-      <File FileName="ChartsDemo/_Imports.razor" Line="11" Column="18" />
+      <File FileName="ChartsDemo/Pages/Index.razor" Line="7" Column="15" />
+      <File FileName="ChartsDemo/ChartsDemo.csproj" Line="8" Column="84" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChartsDemo" expanded="True">
-            <Node name="ChartsDemo" expanded="True">
+            <Node name="ChartsDemo" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Data" expanded="True" />
               <Node name="Diagrams" expanded="True" />
               <Node name="Pages" expanded="True" />
-              <Node name="_Imports.razor" selected="True" />
             </Node>
           </Node>
         </State>

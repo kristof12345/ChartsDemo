@@ -79,6 +79,13 @@ using ChartsDemo.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
+using Common.Web;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

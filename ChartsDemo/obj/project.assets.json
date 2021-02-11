@@ -175,31 +175,13 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Syncfusion.Blazor.Buttons/18.4.0.39": {
+      "Syncfusion.Blazor.Charts/18.4.0.35": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39"
-        },
-        "compile": {
-          "lib/net5.0/Syncfusion.Blazor.Buttons.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Syncfusion.Blazor.Buttons.dll": {}
-        },
-        "build": {
-          "buildTransitive/Syncfusion.Blazor.Buttons.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.Buttons.props": {}
-        }
-      },
-      "Syncfusion.Blazor.Charts/18.4.0.39": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39",
-          "Syncfusion.Blazor.Data": "18.4.0.39",
-          "Syncfusion.Blazor.DataVizCommon": "18.4.0.39",
-          "Syncfusion.PdfExport.Net.Core": "18.4.0.39"
+          "Syncfusion.Blazor.Core": "18.4.0.35",
+          "Syncfusion.Blazor.Data": "18.4.0.35",
+          "Syncfusion.Blazor.DataVizCommon": "18.4.0.35",
+          "Syncfusion.PdfExport.Net.Core": "18.4.0.35"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Charts.dll": {}
@@ -214,14 +196,14 @@
           "buildMultiTargeting/Syncfusion.Blazor.Charts.props": {}
         }
       },
-      "Syncfusion.Blazor.Core/18.4.0.39": {
+      "Syncfusion.Blazor.Core/18.4.0.35": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "5.0.0",
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Blazor.Themes": "18.4.0.39",
-          "Syncfusion.Licensing": "18.4.0.39"
+          "Syncfusion.Blazor.Themes": "18.4.0.35",
+          "Syncfusion.Licensing": "18.4.0.35"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Core.dll": {}
@@ -236,10 +218,10 @@
           "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
         }
       },
-      "Syncfusion.Blazor.Data/18.4.0.39": {
+      "Syncfusion.Blazor.Data/18.4.0.35": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39"
+          "Syncfusion.Blazor.Core": "18.4.0.35"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Data.dll": {}
@@ -254,10 +236,10 @@
           "buildMultiTargeting/Syncfusion.Blazor.Data.props": {}
         }
       },
-      "Syncfusion.Blazor.DataVizCommon/18.4.0.39": {
+      "Syncfusion.Blazor.DataVizCommon/18.4.0.35": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39"
+          "Syncfusion.Blazor.Core": "18.4.0.35"
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.DataVizCommon.dll": {}
@@ -266,106 +248,7 @@
           "lib/net5.0/Syncfusion.Blazor.DataVizCommon.dll": {}
         }
       },
-      "Syncfusion.Blazor.Inputs/18.4.0.39": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39",
-          "Syncfusion.Blazor.Data": "18.4.0.39",
-          "Syncfusion.Blazor.Popups": "18.4.0.39",
-          "Syncfusion.Blazor.Spinner": "18.4.0.39",
-          "Syncfusion.Blazor.SplitButtons": "18.4.0.39"
-        },
-        "compile": {
-          "lib/net5.0/Syncfusion.Blazor.Inputs.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Syncfusion.Blazor.Inputs.dll": {}
-        },
-        "build": {
-          "buildTransitive/Syncfusion.Blazor.Inputs.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.Inputs.props": {}
-        }
-      },
-      "Syncfusion.Blazor.Popups/18.4.0.39": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Blazor.Buttons": "18.4.0.39",
-          "Syncfusion.Blazor.Core": "18.4.0.39"
-        },
-        "compile": {
-          "lib/net5.0/Syncfusion.Blazor.Popups.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Syncfusion.Blazor.Popups.dll": {}
-        },
-        "build": {
-          "buildTransitive/Syncfusion.Blazor.Popups.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.Popups.props": {}
-        }
-      },
-      "Syncfusion.Blazor.ProgressBar/18.4.0.39": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39",
-          "Syncfusion.Blazor.Data": "18.4.0.39"
-        },
-        "compile": {
-          "lib/net5.0/Syncfusion.Blazor.ProgressBar.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Syncfusion.Blazor.ProgressBar.dll": {}
-        },
-        "build": {
-          "buildTransitive/Syncfusion.Blazor.ProgressBar.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.ProgressBar.props": {}
-        }
-      },
-      "Syncfusion.Blazor.Spinner/18.4.0.39": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Blazor.Core": "18.4.0.39"
-        },
-        "compile": {
-          "lib/net5.0/Syncfusion.Blazor.Spinner.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Syncfusion.Blazor.Spinner.dll": {}
-        },
-        "build": {
-          "buildTransitive/Syncfusion.Blazor.Spinner.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.Spinner.props": {}
-        }
-      },
-      "Syncfusion.Blazor.SplitButtons/18.4.0.39": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Blazor.Buttons": "18.4.0.39",
-          "Syncfusion.Blazor.Core": "18.4.0.39",
-          "Syncfusion.Blazor.Popups": "18.4.0.39",
-          "Syncfusion.Blazor.Spinner": "18.4.0.39"
-        },
-        "compile": {
-          "lib/net5.0/Syncfusion.Blazor.SplitButtons.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Syncfusion.Blazor.SplitButtons.dll": {}
-        },
-        "build": {
-          "buildTransitive/Syncfusion.Blazor.SplitButtons.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.SplitButtons.props": {}
-        }
-      },
-      "Syncfusion.Blazor.Themes/18.4.0.39": {
+      "Syncfusion.Blazor.Themes/18.4.0.35": {
         "type": "package",
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Themes.dll": {}
@@ -380,7 +263,7 @@
           "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
         }
       },
-      "Syncfusion.Licensing/18.4.0.39": {
+      "Syncfusion.Licensing/18.4.0.35": {
         "type": "package",
         "compile": {
           "lib/netcoreapp5.0/Syncfusion.Licensing.dll": {}
@@ -389,7 +272,7 @@
           "lib/netcoreapp5.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.PdfExport.Net.Core/18.4.0.39": {
+      "Syncfusion.PdfExport.Net.Core/18.4.0.35": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -880,32 +763,10 @@
         "packageIcon.png"
       ]
     },
-    "Syncfusion.Blazor.Buttons/18.4.0.39": {
-      "sha512": "xi5pyKNZzvY7Zz04vtmTPjIypHJyiDHBpjloqDDnEFD4SAvfQSe26rou7buU4LZ8NJq7IV+W2F1Yxm+/l7y2mQ==",
+    "Syncfusion.Blazor.Charts/18.4.0.35": {
+      "sha512": "MeU4xqCNPRblBIhhMDVmvdBGpK80T/mwELqCZ2NMcK7bq7uVsc76Gb1fVYI/y6e5YlnYNdg/RK/0XCsMstZlgQ==",
       "type": "package",
-      "path": "syncfusion.blazor.buttons/18.4.0.39",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.Buttons.props",
-        "buildMultiTargeting/Syncfusion.Blazor.Buttons.props",
-        "buildTransitive/Syncfusion.Blazor.Buttons.props",
-        "lib/net5.0/Syncfusion.Blazor.Buttons.dll",
-        "lib/netstandard2.1/Syncfusion.Blazor.Buttons.dll",
-        "staticwebassets/scripts/button-01062a.min.js",
-        "staticwebassets/scripts/buttonsbase-01062a.min.js",
-        "staticwebassets/scripts/checkbox-01062a.min.js",
-        "staticwebassets/scripts/radiobutton-01062a.min.js",
-        "staticwebassets/scripts/switch-01062a.min.js",
-        "syncfusion.blazor.buttons.18.4.0.39.nupkg.sha512",
-        "syncfusion.blazor.buttons.nuspec"
-      ]
-    },
-    "Syncfusion.Blazor.Charts/18.4.0.39": {
-      "sha512": "/WlieYII13nJfXqhlqALHtpDDUq1Q9DBG6g8/OTtqyv9yDrNOE3+KQcIEb61O3jhN1IUpElCDuLFvdMGX91sEQ==",
-      "type": "package",
-      "path": "syncfusion.blazor.charts/18.4.0.39",
+      "path": "syncfusion.blazor.charts/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -915,19 +776,19 @@
         "buildTransitive/Syncfusion.Blazor.Charts.props",
         "lib/net5.0/Syncfusion.Blazor.Charts.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.Charts.dll",
-        "staticwebassets/scripts/accumulationchart-01062a.min.js",
-        "staticwebassets/scripts/chart-01062a.min.js",
-        "staticwebassets/scripts/chartsbase-01062a.min.js",
-        "staticwebassets/scripts/sf-accumulation-chart-01062a.min.js",
-        "staticwebassets/scripts/sf-chart-01062a.min.js",
-        "syncfusion.blazor.charts.18.4.0.39.nupkg.sha512",
+        "staticwebassets/scripts/accumulationchart-b95530.min.js",
+        "staticwebassets/scripts/chart-b95530.min.js",
+        "staticwebassets/scripts/chartsbase-b95530.min.js",
+        "staticwebassets/scripts/sf-accumulation-chart-b95530.min.js",
+        "staticwebassets/scripts/sf-chart-b95530.min.js",
+        "syncfusion.blazor.charts.18.4.0.35.nupkg.sha512",
         "syncfusion.blazor.charts.nuspec"
       ]
     },
-    "Syncfusion.Blazor.Core/18.4.0.39": {
-      "sha512": "puH057A1TEAXodvFk8AY/+HRdHVFaqcQgqffvPwsgGjUAJglQUCXN++FkL+oK8d8DoulpTSU54LdswJ8uMbVPA==",
+    "Syncfusion.Blazor.Core/18.4.0.35": {
+      "sha512": "mW5KsZaaYtdUIX7ve0LwLwB8fb4rcpAvFShteyO1ipMNSFGbVsQJK8WEUyLAU/vs+WDPnXB1WCccVOpc7cCF3g==",
       "type": "package",
-      "path": "syncfusion.blazor.core/18.4.0.39",
+      "path": "syncfusion.blazor.core/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -937,27 +798,27 @@
         "buildTransitive/Syncfusion.Blazor.Core.props",
         "lib/net5.0/Syncfusion.Blazor.Core.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.Core.dll",
-        "staticwebassets/scripts/compression-01062a.min.js",
-        "staticwebassets/scripts/drawings-01062a.min.js",
-        "staticwebassets/scripts/excelexport-01062a.min.js",
-        "staticwebassets/scripts/fileutils-01062a.min.js",
-        "staticwebassets/scripts/pdfexport-01062a.min.js",
-        "staticwebassets/scripts/popup-01062a.min.js",
-        "staticwebassets/scripts/popupsbase-01062a.min.js",
-        "staticwebassets/scripts/sf-import-01062a.min.js",
-        "staticwebassets/scripts/sf-import-ie-01062a.min.js",
-        "staticwebassets/scripts/sf-svg-export-01062a.min.js",
-        "staticwebassets/scripts/svgbase-01062a.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-01062a.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-extended-01062a.min.js",
-        "syncfusion.blazor.core.18.4.0.39.nupkg.sha512",
+        "staticwebassets/scripts/compression-b95530.min.js",
+        "staticwebassets/scripts/drawings-b95530.min.js",
+        "staticwebassets/scripts/excelexport-b95530.min.js",
+        "staticwebassets/scripts/fileutils-b95530.min.js",
+        "staticwebassets/scripts/pdfexport-b95530.min.js",
+        "staticwebassets/scripts/popup-b95530.min.js",
+        "staticwebassets/scripts/popupsbase-b95530.min.js",
+        "staticwebassets/scripts/sf-import-b95530.min.js",
+        "staticwebassets/scripts/sf-import-ie-b95530.min.js",
+        "staticwebassets/scripts/sf-svg-export-b95530.min.js",
+        "staticwebassets/scripts/svgbase-b95530.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-b95530.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-extended-b95530.min.js",
+        "syncfusion.blazor.core.18.4.0.35.nupkg.sha512",
         "syncfusion.blazor.core.nuspec"
       ]
     },
-    "Syncfusion.Blazor.Data/18.4.0.39": {
-      "sha512": "lg/CahE+n8p8K0bgX80R9mt55khvUzgHSjdyhH+5w0lTKstprmNPc8TvOEtTs+Ua6ZGl5lCs9C3gfWInRot8/g==",
+    "Syncfusion.Blazor.Data/18.4.0.35": {
+      "sha512": "t78MamegU/82aAIt4Grtg193cgGvPD7QhgRs/TVskQSacMfUHgf2S9pkkC5al7UrdaOS4i8b32JP16W69N4uZw==",
       "type": "package",
-      "path": "syncfusion.blazor.data/18.4.0.39",
+      "path": "syncfusion.blazor.data/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -967,137 +828,28 @@
         "buildTransitive/Syncfusion.Blazor.Data.props",
         "lib/net5.0/Syncfusion.Blazor.Data.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.Data.dll",
-        "staticwebassets/scripts/data-01062a.min.js",
-        "syncfusion.blazor.data.18.4.0.39.nupkg.sha512",
+        "staticwebassets/scripts/data-b95530.min.js",
+        "syncfusion.blazor.data.18.4.0.35.nupkg.sha512",
         "syncfusion.blazor.data.nuspec"
       ]
     },
-    "Syncfusion.Blazor.DataVizCommon/18.4.0.39": {
-      "sha512": "cwLbUDTT39jio5cbZ+AsCkgW1QIverrn5quK4Ps54q+7v8NpFpSEO/Zm7fDSoBKGjM6nZZuVX+UZLpTl0ZgEUQ==",
+    "Syncfusion.Blazor.DataVizCommon/18.4.0.35": {
+      "sha512": "FhTwL5BFAe/H4mDcckEkKlWzN1v8frACKXkKnv0ckDpaVZVMuQaMaRXz4vrAen1M8gbfQIRWv/ICcPSQica2ng==",
       "type": "package",
-      "path": "syncfusion.blazor.datavizcommon/18.4.0.39",
+      "path": "syncfusion.blazor.datavizcommon/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/Syncfusion.Blazor.DataVizCommon.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.DataVizCommon.dll",
-        "syncfusion.blazor.datavizcommon.18.4.0.39.nupkg.sha512",
+        "syncfusion.blazor.datavizcommon.18.4.0.35.nupkg.sha512",
         "syncfusion.blazor.datavizcommon.nuspec"
       ]
     },
-    "Syncfusion.Blazor.Inputs/18.4.0.39": {
-      "sha512": "LTVRRWwP/XhgzTYTf608dig7eYAH4asvS0GL3clA0HSCUpkrbRBd1e8zkiHxhe6SbpQxZNw4Z0dJHl60v5SqcA==",
+    "Syncfusion.Blazor.Themes/18.4.0.35": {
+      "sha512": "x1Ngpxr8c4kQv0nmTmnY79B+6rlmTgO0V5K1/TrwuZhzQ8NT4Lkut6D0e9h5abVszaQKy0gYXyIxbmwO6TJWbg==",
       "type": "package",
-      "path": "syncfusion.blazor.inputs/18.4.0.39",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.Inputs.props",
-        "buildMultiTargeting/Syncfusion.Blazor.Inputs.props",
-        "buildTransitive/Syncfusion.Blazor.Inputs.props",
-        "lib/net5.0/Syncfusion.Blazor.Inputs.dll",
-        "lib/netstandard2.1/Syncfusion.Blazor.Inputs.dll",
-        "staticwebassets/scripts/colorpicker-01062a.min.js",
-        "staticwebassets/scripts/inputsbase-01062a.min.js",
-        "staticwebassets/scripts/numerictextbox-01062a.min.js",
-        "staticwebassets/scripts/sf-colorpicker-01062a.min.js",
-        "staticwebassets/scripts/sf-maskedtextbox-01062a.min.js",
-        "staticwebassets/scripts/sf-numerictextbox-01062a.min.js",
-        "staticwebassets/scripts/sf-slider-01062a.min.js",
-        "staticwebassets/scripts/sf-textbox-01062a.min.js",
-        "staticwebassets/scripts/sf-uploader-01062a.min.js",
-        "staticwebassets/scripts/slider-01062a.min.js",
-        "staticwebassets/scripts/textbox-01062a.min.js",
-        "staticwebassets/scripts/uploader-01062a.min.js",
-        "syncfusion.blazor.inputs.18.4.0.39.nupkg.sha512",
-        "syncfusion.blazor.inputs.nuspec"
-      ]
-    },
-    "Syncfusion.Blazor.Popups/18.4.0.39": {
-      "sha512": "fd+nTCbtqvawNzZwYdvoc9rvdbzPOXpkdLnVF69FhMhiNUuZrZPVb0yi0nnWMy0AiVg+kBrlcfcJA6l7paVWaw==",
-      "type": "package",
-      "path": "syncfusion.blazor.popups/18.4.0.39",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.Popups.props",
-        "buildMultiTargeting/Syncfusion.Blazor.Popups.props",
-        "buildTransitive/Syncfusion.Blazor.Popups.props",
-        "lib/net5.0/Syncfusion.Blazor.Popups.dll",
-        "lib/netstandard2.1/Syncfusion.Blazor.Popups.dll",
-        "staticwebassets/scripts/dialog-01062a.min.js",
-        "staticwebassets/scripts/sf-dialog-01062a.min.js",
-        "staticwebassets/scripts/sf-tooltip-01062a.min.js",
-        "staticwebassets/scripts/tooltip-01062a.min.js",
-        "syncfusion.blazor.popups.18.4.0.39.nupkg.sha512",
-        "syncfusion.blazor.popups.nuspec"
-      ]
-    },
-    "Syncfusion.Blazor.ProgressBar/18.4.0.39": {
-      "sha512": "bz9Sge3GUt03cYJAoSGQVXAuTVRnMEkVnRimvJSi+gAUb7wuvhwqKIlKZ8MAWrg/sbQFEvlWNh8JsPoymVuFyw==",
-      "type": "package",
-      "path": "syncfusion.blazor.progressbar/18.4.0.39",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.ProgressBar.props",
-        "buildMultiTargeting/Syncfusion.Blazor.ProgressBar.props",
-        "buildTransitive/Syncfusion.Blazor.ProgressBar.props",
-        "lib/net5.0/Syncfusion.Blazor.ProgressBar.dll",
-        "lib/netstandard2.1/Syncfusion.Blazor.ProgressBar.dll",
-        "staticwebassets/scripts/sf-progressbar-01062a.min.js",
-        "syncfusion.blazor.progressbar.18.4.0.39.nupkg.sha512",
-        "syncfusion.blazor.progressbar.nuspec"
-      ]
-    },
-    "Syncfusion.Blazor.Spinner/18.4.0.39": {
-      "sha512": "CVqorcgOKOF977Y+URRUL699iPz5AWU9bhspNxrv07y3iFHueCDdWG4+f+TDj3R93h40XQr76Lpigq5qif7XlQ==",
-      "type": "package",
-      "path": "syncfusion.blazor.spinner/18.4.0.39",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.Spinner.props",
-        "buildMultiTargeting/Syncfusion.Blazor.Spinner.props",
-        "buildTransitive/Syncfusion.Blazor.Spinner.props",
-        "lib/net5.0/Syncfusion.Blazor.Spinner.dll",
-        "lib/netstandard2.1/Syncfusion.Blazor.Spinner.dll",
-        "staticwebassets/scripts/sf-spinner-01062a.min.js",
-        "staticwebassets/scripts/spinner-01062a.min.js",
-        "syncfusion.blazor.spinner.18.4.0.39.nupkg.sha512",
-        "syncfusion.blazor.spinner.nuspec"
-      ]
-    },
-    "Syncfusion.Blazor.SplitButtons/18.4.0.39": {
-      "sha512": "AypeAMEiOC54BP3i33Nq4yCsWwTFG2G6KSYPJ87WzsG1NrVrgiVlOEjglQpzCLD/420q8V8W8i7cdV21/Buqmg==",
-      "type": "package",
-      "path": "syncfusion.blazor.splitbuttons/18.4.0.39",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.SplitButtons.props",
-        "buildMultiTargeting/Syncfusion.Blazor.SplitButtons.props",
-        "buildTransitive/Syncfusion.Blazor.SplitButtons.props",
-        "lib/net5.0/Syncfusion.Blazor.SplitButtons.dll",
-        "lib/netstandard2.1/Syncfusion.Blazor.SplitButtons.dll",
-        "staticwebassets/scripts/dropdownbutton-01062a.min.js",
-        "staticwebassets/scripts/progressbutton-01062a.min.js",
-        "staticwebassets/scripts/sf-drop-down-button-01062a.min.js",
-        "staticwebassets/scripts/splitbutton-01062a.min.js",
-        "staticwebassets/scripts/splitbuttonsbase-01062a.min.js",
-        "syncfusion.blazor.splitbuttons.18.4.0.39.nupkg.sha512",
-        "syncfusion.blazor.splitbuttons.nuspec"
-      ]
-    },
-    "Syncfusion.Blazor.Themes/18.4.0.39": {
-      "sha512": "jV/YnKw9EQMb3+SIx/MCpGJShUI66ZPFtR/C6AlrWN0UuwpJ75IVz+kbzyxRaOkZ9o+1gP3ZPqhmFZDJiZmVgA==",
-      "type": "package",
-      "path": "syncfusion.blazor.themes/18.4.0.39",
+      "path": "syncfusion.blazor.themes/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1115,14 +867,14 @@
         "staticwebassets/highcontrast.css",
         "staticwebassets/material-dark.css",
         "staticwebassets/material.css",
-        "syncfusion.blazor.themes.18.4.0.39.nupkg.sha512",
+        "syncfusion.blazor.themes.18.4.0.35.nupkg.sha512",
         "syncfusion.blazor.themes.nuspec"
       ]
     },
-    "Syncfusion.Licensing/18.4.0.39": {
-      "sha512": "T84XeTMgNX1h4pcWZQBJr8xd2egY0JX8dkP1yZTRevSSu08XwUDqLRke4TlPGX0ltprI0U7t9kOjsgLlBQLBZQ==",
+    "Syncfusion.Licensing/18.4.0.35": {
+      "sha512": "OBsBEGSmBIb6rZhPY2TnaAWWDhhNiBF0HWXfIXHuOVB+Tyfv4vkh54eOWlx8CM3Qxi+jbN3ENYxJ/07wE7m1KQ==",
       "type": "package",
-      "path": "syncfusion.licensing/18.4.0.39",
+      "path": "syncfusion.licensing/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1144,14 +896,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.18.4.0.39.nupkg.sha512",
+        "syncfusion.licensing.18.4.0.35.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.PdfExport.Net.Core/18.4.0.39": {
-      "sha512": "4s2e6DdcSGRqZaWKInRY8PZMzfo5BFWuZZWa3oWbrLMbYgdqipvtHVVAkxbKq+ubg55sHNl1wHfHhqI/A3JlrA==",
+    "Syncfusion.PdfExport.Net.Core/18.4.0.35": {
+      "sha512": "5mOpCrtFu9HEt3pRKgqp+ugZ3YVgb1Df7Qu4SIpnLd7QMqywsnGIK3St6kfPw6bhOBsDUIVKYdzOxJgdtxAplQ==",
       "type": "package",
-      "path": "syncfusion.pdfexport.net.core/18.4.0.39",
+      "path": "syncfusion.pdfexport.net.core/18.4.0.35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1159,7 +911,7 @@
         "lib/net5.0/Syncfusion.PdfExport.Net.xml",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.dll",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.xml",
-        "syncfusion.pdfexport.net.core.18.4.0.39.nupkg.sha512",
+        "syncfusion.pdfexport.net.core.18.4.0.35.nupkg.sha512",
         "syncfusion.pdfexport.net.core.nuspec"
       ]
     },
@@ -1193,9 +945,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Components.Web >= 5.0.3",
-      "Syncfusion.Blazor.Charts >= 18.4.0.39",
-      "Syncfusion.Blazor.Inputs >= 18.4.0.39",
-      "Syncfusion.Blazor.ProgressBar >= 18.4.0.39"
+      "Syncfusion.Blazor.Charts >= 18.4.0.35"
     ]
   },
   "packageFolders": {
@@ -1245,15 +995,7 @@
           },
           "Syncfusion.Blazor.Charts": {
             "target": "Package",
-            "version": "[18.4.0.39, )"
-          },
-          "Syncfusion.Blazor.Inputs": {
-            "target": "Package",
-            "version": "[18.4.0.39, )"
-          },
-          "Syncfusion.Blazor.ProgressBar": {
-            "target": "Package",
-            "version": "[18.4.0.39, )"
+            "version": "[18.4.0.35, )"
           }
         },
         "imports": [

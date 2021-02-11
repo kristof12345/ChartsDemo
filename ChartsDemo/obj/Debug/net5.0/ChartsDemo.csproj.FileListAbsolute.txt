@@ -9,7 +9,6 @@
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/Diagrams/ColumnDiagram.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/Diagrams/DoughnutDiagram.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/Diagrams/PieDiagram.razor.g.cs
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/Diagrams/ProgressBar.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
@@ -24,7 +23,6 @@
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/Diagrams/ColumnDiagram.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/Diagrams/DoughnutDiagram.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/Diagrams/PieDiagram.razor.g.cs
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/Diagrams/ProgressBar.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
@@ -52,16 +50,10 @@
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Microsoft.JSInterop.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Newtonsoft.Json.dll
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Buttons.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Charts.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Core.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Data.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.DataVizCommon.dll
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Inputs.dll
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Popups.dll
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.ProgressBar.dll
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Spinner.dll
-/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.SplitButtons.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Blazor.Themes.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.Licensing.dll
 /Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/bin/Debug/net5.0/Syncfusion.PdfExport.Net.dll

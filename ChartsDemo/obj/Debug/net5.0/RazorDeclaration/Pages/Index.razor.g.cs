@@ -83,7 +83,7 @@ using ChartsDemo.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Pages/Index.razor"
+#line 11 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/_Imports.razor"
 using Common.Web;
 
 #line default
@@ -97,6 +97,19 @@ using Common.Web;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 11 "/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Pages/Index.razor"
+       
+
+    public List<ChartData> Data { get; set; } = new List<ChartData>
+    {
+        new ChartData { Id="1", Label="1", Data=40, Color="blue"  },
+        new ChartData { Id="2", Label="2", Data=60, Color="red"  }
+    };
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
