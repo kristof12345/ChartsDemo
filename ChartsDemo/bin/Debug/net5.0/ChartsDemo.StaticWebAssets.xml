@@ -1,7 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/obj/Debug/net5.0/scopedcss/bundle/" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Charts" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.charts/18.4.0.41/build/../staticwebassets/" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Core" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.core/18.4.0.41/build/../staticwebassets/" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Data" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.data/18.4.0.41/build/../staticwebassets/" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="/Users/kristof/.nuget/packages/syncfusion.blazor.themes/18.4.0.41/build/../staticwebassets/" />
-</StaticWebAssets>
