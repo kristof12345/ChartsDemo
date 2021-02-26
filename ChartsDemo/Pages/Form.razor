@@ -1,0 +1,30 @@
+﻿@page "/form"
+
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Buttons
+
+<div class="paper" style="display: flex; flex-direction: row; height: 350px">
+    <div style="display: flex; flex-direction: column; width: 800px; margin: 20px; height: 200px;">
+        <EditForm Model=@Person OnValidSubmit=@OnSubmit>
+            <DataAnnotationsValidator />
+            <h1>Bigger:</h1>
+            <SfTextBox @bind-Value=@Person.Name FloatLabelType=@FloatLabelType.Auto Placeholder="Name" CssClass="e-outline e-bigger"></SfTextBox>
+            <h1>Normal:</h1>
+            <SfTextBox @bind-Value=@Person.Name FloatLabelType=@FloatLabelType.Auto Placeholder="Name" CssClass="e-outline"></SfTextBox>
+            <h1>Small:</h1>
+            <SfTextBox @bind-Value=@Person.Name FloatLabelType=@FloatLabelType.Auto Placeholder="Name" CssClass="e-outline e-small"></SfTextBox>
+            <SfButton CssClass="e-primary">Send </SfButton>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+
+    private Person Person { get; set; } = new Person();
+
+    private void OnSubmit()
+    {
+
+    }
+
+}

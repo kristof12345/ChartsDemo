@@ -1,0 +1,56 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Charts
+
+<h1>Stocks chart:</h1>
+
+<div style="height:450px; width:100%; margin-top: 10px; margin-bottom: 10px; padding: 20px;">
+    <SfStockChart Title="Stock Price" Theme=@ChartTheme.MaterialDark Border=@(new StockChartChartBorder{ Color="transparent"})>
+        <StockChartSeriesCollection>
+            <StockChartSeries DataSource=@Prices Type=@ChartSeriesType.Candle XName="Date" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume"></StockChartSeries>
+        </StockChartSeriesCollection>
+        <StockChartPeriods>
+            <StockChartPeriod Text="Last week" IntervalType=RangeIntervalType.Weeks Interval="1" />
+            <StockChartPeriod Text="Last month" IntervalType=RangeIntervalType.Months Interval="1" />
+            <StockChartPeriod Text="Last year" IntervalType=RangeIntervalType.Years Interval="1" />
+            <StockChartPeriod Text="All" Selected="true"></StockChartPeriod>
+        </StockChartPeriods>
+    </SfStockChart>
+</div>
+
+@code {
+
+    private List<StockPrice> Prices { get; set; } = new List<StockPrice>();
+
+    protected override Task OnParametersSetAsync()
+    {
+        var list = new List<StockPrice>();
+        for (int i = 0; i < 100; i++)
+            list.Add(new StockPrice
+            {
+                Date = DateTime.Today.AddYears(-1).AddDays(i),
+                Volume = 100,
+                Open = 100 + i,
+                Close = 100 + i,
+                High = 100 + 2 * i,
+                Low = 100 - i
+            });
+        Prices = list;
+        return Task.CompletedTask;
+    }
+
+    public class StockPrice
+    {
+        public DateTime Date { get; set; }
+
+        public decimal Open { get; set; }
+
+        public decimal High { get; set; }
+
+        public decimal Low { get; set; }
+
+        public decimal Close { get; set; }
+
+        public long Volume { get; set; }
+    }
+}
