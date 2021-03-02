@@ -18,12 +18,15 @@
     <Button Outlined="true">Outlined</Button>
 </p>
 
-<Dialog IsOpen=@IsVisible IsOpenChanged=@OpenChanged>
-    Hello
-    <p style="margin: 10px;">
-        <Button OnClick=@(() => {IsVisible = false;})>Filled</Button>
-    </p>
-</Dialog>
+@if (IsVisible)
+{
+    <Dialog IsOpen=@IsVisible IsOpenChanged=@OpenChanged>
+        Hello
+        <p style="margin: 10px;">
+            <Button OnClick=@(() => {IsVisible = false;})>Filled</Button>
+        </p>
+    </Dialog>
+}
 
 @code
 {
@@ -31,8 +34,8 @@
 
     private bool IsVisible = false;
 
-    private  void OpenChanged(bool value)
+    private void OpenChanged(bool value)
     {
         IsVisible = value;
     }
-} 
+}
