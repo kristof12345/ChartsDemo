@@ -1,29 +1,27 @@
 ﻿<Properties StartupConfiguration="{D53F969B-0C81-42B0-9C49-2F3698521E02}|Default">
   <MonoDevelop.Ide.ItemProperties.ChartsDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo/Pages/Stocks.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo/Pages/_Host.cshtml">
     <Files>
-      <File FileName="ChartsDemo/ChartsDemo.csproj" Line="9" Column="77" />
-      <File FileName="ChartsDemo/Pages/_Host.cshtml" Line="3" Column="53" />
-      <File FileName="ChartsDemo/wwwroot/css/site.css" Line="189" Column="1" />
-      <File FileName="ChartsDemo/Shared/MainLayout.razor" Line="6" Column="11" />
-      <File FileName="ChartsDemo/Pages/Inputs.razor" Line="1" Column="1" />
-      <File FileName="ChartsDemo/Pages/Form.razor" Line="1" Column="13" />
-      <File FileName="ChartsDemo/Shared/NavMenu.razor" Line="19" Column="69" />
-      <File FileName="ChartsDemo/Pages/Charts.razor" Line="1" Column="1" />
-      <File FileName="ChartsDemo/Pages/Stocks.razor" Line="31" Column="63" />
+      <File FileName="ChartsDemo/wwwroot/app.css" Line="71" Column="30" />
+      <File FileName="ChartsDemo/Pages/Index.razor" Line="24" Column="1" />
+      <File FileName="ChartsDemo/Inputs/SelectEnum.razor" Line="1" Column="1" />
+      <File FileName="ChartsDemo/Inputs/Button.razor" Line="36" Column="132" />
+      <File FileName="ChartsDemo/Inputs/Dialog.razor" Line="27" Column="1" />
+      <File FileName="ChartsDemo/wwwroot/site.css" Line="1" Column="1" />
+      <File FileName="ChartsDemo/Pages/_Host.cshtml" Line="14" Column="99" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChartsDemo" expanded="True">
             <Node name="ChartsDemo" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Inputs" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Stocks.razor" selected="True" />
+                <Node name="_Host.cshtml" selected="True" />
               </Node>
               <Node name="Shared" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +31,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Pages/Form.razor" relfile="ChartsDemo/Pages/Form.razor" line="33" column="1" />
+      <Breakpoint file="/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Pages/Index.razor" relfile="ChartsDemo/Pages/Index.razor" line="36" column="1" />
+      <Breakpoint file="/Users/kristof/Documents/Projects/ChartsDemo/ChartsDemo/Pages/Index.razor" relfile="ChartsDemo/Pages/Index.razor" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

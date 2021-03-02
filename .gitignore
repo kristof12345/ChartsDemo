@@ -3,6 +3,7 @@ Publish/
 _framework/
 _content/
 *.blob
+*.vs/
 
 # globs
 Makefile.in

@@ -1,0 +1,38 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Inputs
+
+<p style="width: 500px; margin: 10px; margin-top: 100px;">
+    <SfTextBox FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" Type=@InputType.Text />
+</p>
+
+<p style="width: 500px; margin: 10px;">
+    <SelectEnum @bind-Value=@Type TEnum="UserType" Label="Label" />
+</p>
+
+<p style="margin: 10px;">
+    <Button OnClick=@(() => {IsVisible = true;})>Filled</Button>
+</p>
+
+<p style="margin: 10px;">
+    <Button Outlined="true">Outlined</Button>
+</p>
+
+<Dialog IsOpen=@IsVisible IsOpenChanged=@OpenChanged>
+    Hello
+    <p style="margin: 10px;">
+        <Button OnClick=@(() => {IsVisible = false;})>Filled</Button>
+    </p>
+</Dialog>
+
+@code
+{
+    private UserType? Type;
+
+    private bool IsVisible = false;
+
+    private  void OpenChanged(bool value)
+    {
+        IsVisible = value;
+    }
+} 
