@@ -1,41 +1,41 @@
 ﻿@page "/"
 
-@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Inputs;
 
-<p style="width: 500px; margin: 10px; margin-top: 100px;">
-    <SfTextBox FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" Type=@InputType.Text />
+<StockDiagram Data=@Prices />
+
+<p>
+    <SfNumericTextBox @bind-Value=@Value Step="1" FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" TValue="decimal" />
 </p>
 
-<p style="width: 500px; margin: 10px;">
-    <SelectEnum @bind-Value=@Type TEnum="UserType" Label="Label" />
-</p>
-
-<p style="margin: 10px;">
-    <Button OnClick=@(() => {IsVisible = true;})>Filled</Button>
-</p>
-
-<p style="margin: 10px;">
-    <Button Outlined="true">Outlined</Button>
-</p>
-
-@if (IsVisible)
-{
-    <Dialog IsOpen=@IsVisible IsOpenChanged=@OpenChanged>
-        Hello
-        <p style="margin: 10px;">
-            <Button OnClick=@(() => {IsVisible = false;})>Filled</Button>
-        </p>
-    </Dialog>
-}
 
 @code
 {
-    private UserType? Type;
+    private decimal Value;
 
     private bool IsVisible = false;
 
     private void OpenChanged(bool value)
     {
         IsVisible = value;
+    }
+
+    private List<StockPrice> Prices { get; set; } = new List<StockPrice>();
+
+    protected override Task OnParametersSetAsync()
+    {
+        var list = new List<StockPrice>();
+        for (int i = 0; i < 100; i++)
+            list.Add(new StockPrice
+            {
+                Date = DateTime.Today.AddYears(-1).AddDays(i),
+                Volume = 100,
+                Open = 100 + i,
+                Close = 100 + i,
+                High = 100 + 2 * i,
+                Low = 100 - i
+            });
+        Prices = list;
+        return Task.CompletedTask;
     }
 }

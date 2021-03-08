@@ -1,0 +1,26 @@
+﻿@namespace Common.Web
+@using Syncfusion.Blazor.Charts
+
+<div style="height:450px; width:100%; padding: 20px;">
+    <SfStockChart Theme=@ChartTheme.MaterialDark>
+        <StockChartChartBorder Width="0" />
+        <StockChartSeriesCollection>
+            <StockChartSeries DataSource=@Data Type=@ChartSeriesType.Candle XName="Date" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume"></StockChartSeries>
+        </StockChartSeriesCollection>
+        <StockChartPeriods>
+            <StockChartPeriod Text="Last week" IntervalType=RangeIntervalType.Weeks Interval="1" />
+            <StockChartPeriod Text="Last month" IntervalType=RangeIntervalType.Months Interval="1" />
+            <StockChartPeriod Text="Last year" IntervalType=RangeIntervalType.Years Interval="1" />
+            <StockChartPeriod Text="All" Selected="true"></StockChartPeriod>
+        </StockChartPeriods>
+    </SfStockChart>
+</div>
+
+@code
+{
+    [Parameter]
+    public IEnumerable<StockPrice> Data { get; set; } = new List<StockPrice>();
+
+    [Parameter]
+    public string Title { get; set; } = "Stock Price";
+}
