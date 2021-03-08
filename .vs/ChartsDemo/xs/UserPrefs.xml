@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{D53F969B-0C81-42B0-9C49-2F3698521E02}|Default">
   <MonoDevelop.Ide.ItemProperties.ChartsDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo/Pages/Index.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo/Diagrams/CompareDiagram.razor">
     <Files>
       <File FileName="ChartsDemo/Pages/Index.razor" Line="8" Column="1" />
       <File FileName="ChartsDemo/Diagrams/StockDiagram.razor" />
+      <File FileName="ChartsDemo/Diagrams/CompareDiagram.razor" Line="23" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,11 +12,11 @@
           <Node name="ChartsDemo" expanded="True">
             <Node name="ChartsDemo" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Diagrams" expanded="True" />
-              <Node name="Inputs" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Index.razor" selected="True" />
+              <Node name="Diagrams" expanded="True">
+                <Node name="CompareDiagram.razor" selected="True" />
               </Node>
+              <Node name="Inputs" expanded="True" />
+              <Node name="Pages" expanded="True" />
               <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>

@@ -20,7 +20,7 @@
 }
 else
 {
-    <Button OnClick=@Show Outlined="true">Generate comparisons</Button>
+    <Button Outlined="true">Generate comparisons</Button>
 }
 
 @code
@@ -36,12 +36,4 @@ else
     private IEnumerable<ChartData> AveragePrices { get; set; }
 
     private bool IsShown { get; set; }
-
-    private async Task Show()
-    {
-        var baseline = Data.First().Close / 100;
-        Prices = Data.Select(p => new ChartData { Id = p.Date.ToString(), Data = decimal.ToInt32(p.Close) }).ToList();
-        AveragePrices = Data.Select(p => new ChartData { Id = p.Date.ToString(), Data = decimal.ToInt32(p.Close) }).ToList();
-        IsShown = true;
-    }
 }
