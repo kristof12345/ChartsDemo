@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common.Web
+namespace ChartsDemo.Common.Shared
 {
     public class StockPrice
     {

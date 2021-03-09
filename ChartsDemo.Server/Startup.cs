@@ -1,4 +1,3 @@
-using MatBlazor;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,7 +22,6 @@ namespace ChartsDemo
         {
             services.AddSignalR(e => { e.MaximumReceiveMessageSize = 102400000; });
             services.AddRazorPages();
-            services.AddMatBlazor();
             services.AddServerSideBlazor();
             services.AddSyncfusionBlazor();
         }
