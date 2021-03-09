@@ -1,5 +1,43 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@using ChartsDemo.Common.Shared;
+@using Syncfusion.Blazor.Inputs;
 
-Welcome to your new app.
+<StockDiagram Data=@Prices />
+
+@if (false)
+{
+    <SfNumericTextBox @bind-Value=@Value Step="1" FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" TValue="decimal" />
+}
+
+@code
+{
+    private decimal Value;
+
+    private bool IsVisible = false;
+
+    private void OpenChanged(bool value)
+    {
+        IsVisible = value;
+    }
+
+    private List<StockPrice> Prices { get; set; } = new List<StockPrice>();
+
+    protected override Task OnParametersSetAsync()
+    {
+        var list = new List<StockPrice>();
+        for (int i = 0; i < 100; i++)
+            list.Add(new StockPrice
+            {
+                Date = DateTime.Today.AddYears(-1).AddDays(i),
+                Volume = 100,
+                Open = 100 + i,
+                Close = 100 + i,
+                High = 100 + 2 * i,
+                Low = 100 - i
+            });
+        Prices = list;
+        return Task.CompletedTask;
+    }
+}
+

@@ -1,25 +1,26 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Server/Properties/launchSettings.json">
+﻿<Properties StartupConfiguration="{CE561CDD-B9DC-4DE8-B540-BD681D4D349B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Client/wwwroot/index.html">
     <Files>
-      <File FileName="ChartsDemo.Client/App.razor" Line="3" Column="66" />
-      <File FileName="ChartsDemo.Client/_Imports.razor" Line="11" Column="1" />
-      <File FileName="ChartsDemo.Common/Components/MainLayout.razor" Line="1" Column="1" />
-      <File FileName="ChartsDemo.Client/Pages/Index.razor" Line="5" Column="25" />
-      <File FileName="ChartsDemo.Server/App.razor" Line="3" Column="66" />
-      <File FileName="ChartsDemo.Server/_Imports.razor" Line="11" Column="24" />
-      <File FileName="ChartsDemo.Client/Properties/launchSettings.json" Line="5" Column="50" />
-      <File FileName="ChartsDemo.Client/Program.cs" Line="1" Column="1" />
-      <File FileName="ChartsDemo.Server/ChartsDemo.Server.csproj" Line="1" Column="1" />
-      <File FileName="ChartsDemo.Server/Properties/launchSettings.json" Line="13" Column="1" />
+      <File FileName="ChartsDemo.Client/Pages/Index.razor" Line="43" Column="1" />
+      <File FileName="ChartsDemo.Server/Pages/Index.razor" Line="3" Column="1" />
+      <File FileName="ChartsDemo.Server/Startup.cs" Line="26" Column="1" />
+      <File FileName="ChartsDemo.Client/Program.cs" Line="17" Column="45" />
+      <File FileName="ChartsDemo.Server/Pages/_Host.cshtml" Line="14" Column="1" />
+      <File FileName="ChartsDemo.Client/wwwroot/index.html" Line="13" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowVersionControlOverlays" value="False" />
           <Node name="ChartsDemo" expanded="True">
-            <Node name="ChartsDemo.Client" expanded="True" />
-            <Node name="ChartsDemo.Server" expanded="True" selected="True">
-              <Node name="Properties" expanded="True" />
+            <Node name="ChartsDemo.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="index.html" selected="True" />
+              </Node>
+            </Node>
+            <Node name="ChartsDemo.Server" expanded="True">
+              <Node name="Pages" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -33,14 +34,12 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kristof/Documents/Projects/BlazorDemo/ChartsDemo/Pages/Form.razor" relfile="ChartsDemo/Pages/Form.razor" line="33" column="1" />
-      <Breakpoint file="/Users/kristof/Documents/Projects/BlazorDemo/ChartsDemo.Client/Program.cs" relfile="ChartsDemo.Client/Program.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
-        <StartupItem ItemId="{13853605-C6A8-4676-A3AA-5A7471D0B299}" ItemName="ChartsDemo.Client" ConfigurationId="Default" />
-        <StartupItem ItemId="{D4B7F095-B707-4649-80AD-13591C3288F7}" ItemName="ChartsDemo.Server" ConfigurationId="ChartsDemo" />
+        <StartupItem ItemId="{D4B7F095-B707-4649-80AD-13591C3288F7}" ItemName="ChartsDemo.Server" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
