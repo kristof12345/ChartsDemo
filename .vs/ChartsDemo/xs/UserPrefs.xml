@@ -1,13 +1,26 @@
-﻿<Properties StartupConfiguration="{13853605-C6A8-4676-A3AA-5A7471D0B299}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Server/Properties/launchSettings.json">
+    <Files>
+      <File FileName="ChartsDemo.Client/App.razor" Line="3" Column="66" />
+      <File FileName="ChartsDemo.Client/_Imports.razor" Line="11" Column="1" />
+      <File FileName="ChartsDemo.Common/Components/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="ChartsDemo.Client/Pages/Index.razor" Line="5" Column="25" />
+      <File FileName="ChartsDemo.Server/App.razor" Line="3" Column="66" />
+      <File FileName="ChartsDemo.Server/_Imports.razor" Line="11" Column="24" />
+      <File FileName="ChartsDemo.Client/Properties/launchSettings.json" Line="5" Column="50" />
+      <File FileName="ChartsDemo.Client/Program.cs" Line="1" Column="1" />
+      <File FileName="ChartsDemo.Server/ChartsDemo.Server.csproj" Line="1" Column="1" />
+      <File FileName="ChartsDemo.Server/Properties/launchSettings.json" Line="13" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowVersionControlOverlays" value="False" />
           <Node name="ChartsDemo" expanded="True">
-            <Node name="ChartsDemo.Client" expanded="True" selected="True" />
-            <Node name="ChartsDemo.Common" expanded="True" />
-            <Node name="ChartsDemo.Server" expanded="True" />
+            <Node name="ChartsDemo.Client" expanded="True" />
+            <Node name="ChartsDemo.Server" expanded="True" selected="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -20,7 +33,15 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kristof/Documents/Projects/BlazorDemo/ChartsDemo/Pages/Form.razor" relfile="ChartsDemo/Pages/Form.razor" line="33" column="1" />
+      <Breakpoint file="/Users/kristof/Documents/Projects/BlazorDemo/ChartsDemo.Client/Program.cs" relfile="ChartsDemo.Client/Program.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{13853605-C6A8-4676-A3AA-5A7471D0B299}" ItemName="ChartsDemo.Client" ConfigurationId="Default" />
+        <StartupItem ItemId="{D4B7F095-B707-4649-80AD-13591C3288F7}" ItemName="ChartsDemo.Server" ConfigurationId="ChartsDemo" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>
