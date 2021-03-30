@@ -1,12 +1,13 @@
-﻿<Properties StartupConfiguration="{CE561CDD-B9DC-4DE8-B540-BD681D4D349B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Client/wwwroot/index.html">
+﻿<Properties StartupConfiguration="{D4B7F095-B707-4649-80AD-13591C3288F7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Common/Diagrams/StockDiagram.razor">
     <Files>
       <File FileName="ChartsDemo.Client/Pages/Index.razor" Line="43" Column="1" />
-      <File FileName="ChartsDemo.Server/Pages/Index.razor" Line="3" Column="1" />
-      <File FileName="ChartsDemo.Server/Startup.cs" Line="26" Column="1" />
-      <File FileName="ChartsDemo.Client/Program.cs" Line="17" Column="45" />
-      <File FileName="ChartsDemo.Server/Pages/_Host.cshtml" Line="14" Column="1" />
-      <File FileName="ChartsDemo.Client/wwwroot/index.html" Line="13" Column="47" />
+      <File FileName="ChartsDemo.Server/Pages/Index.razor" />
+      <File FileName="ChartsDemo.Server/Startup.cs" />
+      <File FileName="ChartsDemo.Client/Program.cs" />
+      <File FileName="ChartsDemo.Server/Pages/_Host.cshtml" />
+      <File FileName="ChartsDemo.Client/wwwroot/index.html" />
+      <File FileName="ChartsDemo.Common/Diagrams/StockDiagram.razor" Line="27" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +16,11 @@
           <Node name="ChartsDemo" expanded="True">
             <Node name="ChartsDemo.Client" expanded="True">
               <Node name="Pages" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="index.html" selected="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+            <Node name="ChartsDemo.Common" expanded="True">
+              <Node name="Diagrams" expanded="True">
+                <Node name="StockDiagram.razor" selected="True" />
               </Node>
             </Node>
             <Node name="ChartsDemo.Server" expanded="True">
