@@ -1,11 +1,14 @@
 ﻿@page "/"
 
+@using ChartsDemo.Common.Shared;
 @using Syncfusion.Blazor.Inputs;
 
 <StockDiagram Data=@Prices />
 
-<SfNumericTextBox @bind-Value=@Value Step="1" FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" TValue="decimal" />
-
+@if(false)
+{
+    <SfNumericTextBox @bind-Value=@Value Step="1" FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" TValue="decimal" />
+}
 
 @code
 {

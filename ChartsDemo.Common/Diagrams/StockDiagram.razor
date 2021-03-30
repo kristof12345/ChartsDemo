@@ -1,8 +1,8 @@
-﻿@namespace Common.Web
+﻿@namespace ChartsDemo.Common.Shared
 @using Syncfusion.Blazor.Charts
 
 <div style="height:450px; width:100%; padding: 20px;">
-    <SfStockChart Theme=@ChartTheme.MaterialDark>
+    <SfStockChart Theme=@Syncfusion.Blazor.Theme.MaterialDark>
         <StockChartChartBorder Width="0" />
         <StockChartSeriesCollection>
             <StockChartSeries DataSource=@Data Type=@ChartSeriesType.Candle XName="Date" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume"></StockChartSeries>

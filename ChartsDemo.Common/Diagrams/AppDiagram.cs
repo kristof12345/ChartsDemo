@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ChartsDemo.Common.Shared;
 using Microsoft.AspNetCore.Components;
 
 namespace Common.Web
