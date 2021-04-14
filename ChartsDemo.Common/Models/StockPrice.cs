@@ -14,6 +14,6 @@ namespace ChartsDemo.Common.Shared
 
         public decimal Close { get; set; }
 
-        public long Volume { get; set; }
+        public double Volume { get; set; }
     }
 }

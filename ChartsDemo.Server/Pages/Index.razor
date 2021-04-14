@@ -1,33 +1,22 @@
 ﻿@page "/"
 
 @using ChartsDemo.Common.Shared;
-@using Syncfusion.Blazor.Inputs;
 
-<StockDiagram Data=@Prices />
-
-@if(false)
-{
-    <SfNumericTextBox @bind-Value=@Value Step="1" FloatLabelType=@FloatLabelType.Auto Placeholder="Label" CssClass="e-outline e-bigger form-input" TValue="decimal" />
-}
+<div style="margin-top: 50px; width: 100%;">
+    <StockDiagram Data=@Prices1 />
+    <StockDiagram Data=@Prices2 />
+</div>
 
 @code
 {
-    private decimal Value;
-
-    private bool IsVisible = false;
-
-    private void OpenChanged(bool value)
-    {
-        IsVisible = value;
-    }
-
-    private List<StockPrice> Prices { get; set; } = new List<StockPrice>();
+    private List<StockPrice> Prices1 { get; set; } = new List<StockPrice>();
+    private List<StockPrice> Prices2 { get; set; } = new List<StockPrice>();
 
     protected override Task OnParametersSetAsync()
     {
-        var list = new List<StockPrice>();
+        var list1 = new List<StockPrice>();
         for (int i = 0; i < 100; i++)
-            list.Add(new StockPrice
+            list1.Add(new StockPrice
             {
                 Date = DateTime.Today.AddYears(-1).AddDays(i),
                 Volume = 100,
@@ -36,7 +25,20 @@
                 High = 100 + 2 * i,
                 Low = 100 - i
             });
-        Prices = list;
+        Prices1 = list1;
+
+        var list2 = new List<StockPrice>();
+        for (int i = 0; i < 100; i++)
+            list2.Add(new StockPrice
+            {
+                Date = DateTime.Today.AddYears(-1).AddDays(i),
+                Volume = 100,
+                Open = 100,
+                Close = 100,
+                High = 100,
+                Low = 100
+            });
+        Prices2 = list2;
         return Task.CompletedTask;
     }
 }

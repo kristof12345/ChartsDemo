@@ -3,9 +3,10 @@
 
 <div style="height:450px; width:100%; padding: 20px;">
     <SfStockChart Theme=@Syncfusion.Blazor.Theme.MaterialDark>
+        <StockChartPrimaryYAxis LabelIntersectAction="LabelIntersectAction.Hide" LabelFormat="n0" />
         <StockChartChartBorder Width="0" />
         <StockChartSeriesCollection>
-            <StockChartSeries DataSource=@Data Type=@ChartSeriesType.Candle XName="Date" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume"></StockChartSeries>
+            <StockChartSeries DataSource=@Data Type=@ChartSeriesType.Candle XName="Date" YName="Close" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume"></StockChartSeries>
         </StockChartSeriesCollection>
         <StockChartPeriods>
             <StockChartPeriod Text="Last week" IntervalType=RangeIntervalType.Weeks Interval="1" />
@@ -20,7 +21,4 @@
 {
     [Parameter]
     public IEnumerable<StockPrice> Data { get; set; } = new List<StockPrice>();
-
-    [Parameter]
-    public string Title { get; set; } = "Stock Price";
 }
