@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{D4B7F095-B707-4649-80AD-13591C3288F7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Server/Pages/Index.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Common/Diagrams/StockDiagram.razor">
     <Files>
-      <File FileName="ChartsDemo.Server/Pages/Index.razor" Line="8" Column="1" />
-      <File FileName="ChartsDemo.Common/Diagrams/StockDiagram.razor" />
+      <File FileName="ChartsDemo.Server/Pages/Index.razor" Line="38" Column="27" />
+      <File FileName="ChartsDemo.Common/Diagrams/StockDiagram.razor" Line="6" Column="32" />
       <File FileName="ChartsDemo.Common/Models/StockPrice.cs" />
       <File FileName="ChartsDemo.Server/Startup.cs" />
       <File FileName="ChartsDemo.Client/Program.cs" />
@@ -12,10 +12,6 @@
         <State name="__root__">
           <Option id="ShowVersionControlOverlays" value="False" />
           <Node name="ChartsDemo" expanded="True" selected="True">
-            <Node name="ChartsDemo.Common" expanded="True">
-              <Node name="Components" expanded="True" />
-              <Node name="Diagrams" expanded="True" />
-            </Node>
             <Node name="ChartsDemo.Server" expanded="True">
               <Node name="Pages" expanded="True" />
             </Node>
