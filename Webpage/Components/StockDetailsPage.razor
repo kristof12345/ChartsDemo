@@ -1,0 +1,26 @@
+﻿<Container Margin=@(new Border("70px", "0px", "0px", "0px")) Padding=@(new Border("10px")) Width="auto">
+    <Paper Width="1920px" Margin=@(new Border("0px", "30px")) Padding=@(new Border("120px", "20px" )) VerticalAlign=@VerticalAlignment.Start>
+        <Horizontal HorizontalAlign=@HorizontalAlignment.Center>
+            <Heading>@Stock.Name</Heading>
+        </Horizontal>
+        <StockChart Data=@Stock.Prices />
+        <Horizontal HorizontalAlign=@HorizontalAlignment.SpaceBetween Wrap=@FlexWrap.Wrap>
+
+        </Horizontal>
+        <Paragraph> Company description </Paragraph>
+        <Paragraph Align="justify"> @Stock.Description</Paragraph>
+    </Paper>
+</Container>
+
+@code
+{
+    [Inject]
+    private StockService StockService { get; set; }
+
+    private Stock Stock { get; set; } = new Stock();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Stock = await StockService.GetStockDetails("");
+    }
+}

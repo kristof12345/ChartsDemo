@@ -1,39 +1,27 @@
-﻿<Properties StartupConfiguration="{D4B7F095-B707-4649-80AD-13591C3288F7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChartsDemo.Common/Diagrams/StockDiagram.razor">
-    <Files>
-      <File FileName="ChartsDemo.Server/Pages/Index.razor" Line="38" Column="27" />
-      <File FileName="ChartsDemo.Common/Diagrams/StockDiagram.razor" Line="6" Column="32" />
-      <File FileName="ChartsDemo.Common/Models/StockPrice.cs" />
-      <File FileName="ChartsDemo.Server/Startup.cs" />
-      <File FileName="ChartsDemo.Client/Program.cs" />
-    </Files>
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowVersionControlOverlays" value="False" />
-          <Node name="ChartsDemo" expanded="True" selected="True">
-            <Node name="ChartsDemo.Server" expanded="True">
-              <Node name="Pages" expanded="True" />
-            </Node>
-          </Node>
+          <Node />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ChartsDemo.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>ChartsDemo.Common/ChartsDemo.Common.csproj</String>
+    <String>ChartsDemo.Client/ChartsDemo.Client.csproj</String>
+    <String>ChartsDemo.Server/ChartsDemo.Server.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ChartsDemo.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kristof/Documents/Projects/BlazorDemo/ChartsDemo/Pages/Form.razor" relfile="ChartsDemo/Pages/Form.razor" line="33" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{D4B7F095-B707-4649-80AD-13591C3288F7}" ItemName="ChartsDemo.Server" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects" />
   </MultiItemStartupConfigurations>
 </Properties>
