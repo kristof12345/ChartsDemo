@@ -16,8 +16,6 @@ namespace WebApp.Client
     {
         public static async Task Main(string[] args)
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDA3ODkwQDMxMzgyZTM0MmUzME9Oalc5SERPZklFbklFUUkzRGlkb1cybjV5ZVVmdVB3YkFBSytrYTBCMDA9");
-
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 

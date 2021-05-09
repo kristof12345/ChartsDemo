@@ -48,7 +48,6 @@ namespace WebApp.Server
                 app.UseDeveloperExceptionPage();
             }
 
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDA3ODkwQDMxMzgyZTM0MmUzME9Oalc5SERPZklFbklFUUkzRGlkb1cybjV5ZVVmdVB3YkFBSytrYTBCMDA9");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
