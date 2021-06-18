@@ -3,7 +3,10 @@
         <Horizontal HorizontalAlign=@HorizontalAlignment.Center>
             <Heading>@Stock.Name</Heading>
         </Horizontal>
-        <StockChart Data=@Stock.Prices />
+        <StockChart Data=@Stock.Prices>
+            <StockChartSeries DataSource=@Stock.Prices Type=@ChartSeriesType.Candle XName="Date" YName="Close" High="High" Low="Low" Open="Open" Close="Close" />
+            <StockChartSeries DataSource=@Stock.Prices Type="ChartSeriesType.Column" XName="Date" YName="Volume" YAxisName="VolumeAxis" Fill=@Colors.Warning />
+        </StockChart>
         <Horizontal HorizontalAlign=@HorizontalAlignment.SpaceBetween Wrap=@FlexWrap.Wrap>
 
         </Horizontal>
@@ -21,6 +24,6 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Stock = await StockService.GetStockDetails("");
+        Stock = await StockService.GetStockDetails("aapl.json");
     }
 }

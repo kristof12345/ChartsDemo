@@ -11,9 +11,9 @@ namespace Webpage.Services
 
         public StockService(HttpClient http) { Http = http; }
 
-        public async Task<Stock> GetStockDetails(string symbol)
+        public async Task<Stock> GetStockDetails(string file)
         {
-            return await Http.GetFromJsonAsync<Stock>("aapl.json");
+            return await Http.GetFromJsonAsync<Stock>(file);
         }
     }
 }

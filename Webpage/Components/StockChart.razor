@@ -3,39 +3,43 @@
 <div class="e-stockchart" style="height:450px; width:100%; padding: 20px;">
     @if (!Loaded)
     {
-        <div class="loadingindicator"></div>
+        <div class="loadingindicator" />
     }
 
-    @if (Data != null)
-    {
+
 <SfStockChart Theme=@Theme.MaterialDark>
     <StockChartEvents OnLoaded=@OnLoad />
     <StockChartPrimaryXAxis IntervalType="IntervalType.Days" DesiredIntervals="16" LabelFormat="yyyy.MM.dd" EnableAutoIntervalOnZooming="false" />
     <StockChartChartBorder Width="0" />
     <StockChartAxes>
-        <StockChartAxis RowIndex=0 OpposedPosition="false" Name="VolumeAxis" Visible="false" Maximum=@Max>
-        </StockChartAxis>
+        <StockChartAxis RowIndex=0 OpposedPosition="false" Name="VolumeAxis" Visible="false" Maximum=@Max />
     </StockChartAxes>
     <StockChartRows>
-        <StockChartRow Height="100%"></StockChartRow>
-        <StockChartRow Height="10%"></StockChartRow>
+        <StockChartRow Height="100%" />
+        <StockChartRow Height="10%" />
     </StockChartRows>
-    <StockChartSeriesCollection>
-        <StockChartSeries DataSource=@Data Type=@ChartSeriesType.Candle XName="Date" YName="Close" High="High" Low="Low" Open="Open" Close="Close" />
-        <StockChartSeries DataSource=@Data Type="ChartSeriesType.Column" XName="Date" YName="Volume" YAxisName="VolumeAxis" Fill=@Colors.Warning />
-    </StockChartSeriesCollection>
-    <StockChartPeriods>
-        <StockChartPeriod Text="Last week" IntervalType=RangeIntervalType.Weeks Interval="1" />
-        <StockChartPeriod Text="Last month" IntervalType=RangeIntervalType.Months Interval="1" />
-        <StockChartPeriod Text="Last year" IntervalType=RangeIntervalType.Years Interval="1" Selected="true" />
-        <StockChartPeriod Text="All"></StockChartPeriod>
-    </StockChartPeriods>
-</SfStockChart>
+    @if (Data != null)
+    {
+        <StockChartSeriesCollection>
+            @ChildContent
+        </StockChartSeriesCollection>
     }
+        <StockChartPeriods>
+            <StockChartPeriod Text="Last week" IntervalType=RangeIntervalType.Weeks Interval="1" />
+            <StockChartPeriod Text="Last month" IntervalType=RangeIntervalType.Months Interval="1" />
+            <StockChartPeriod Text="Last year" IntervalType=RangeIntervalType.Years Interval="1" Selected="true" />
+            <StockChartPeriod Text="All" />
+        </StockChartPeriods>
+    </SfStockChart>
+
 </div>
 
 @code
 {
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
     [Parameter]
     public IEnumerable<StockPrice> Data { get; set; }
 
@@ -47,5 +51,5 @@
         StateHasChanged();
     }
 
-    private long Max { get { return Data.Max(s => s.Volume) * 5; } }
+    private long Max { get { return Data == null ? 0 : Data.Max(s => s.Volume) * 5; } }
 }

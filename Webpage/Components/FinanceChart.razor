@@ -1,0 +1,44 @@
+﻿@using Syncfusion.Blazor.Charts
+
+<div class="e-stockchart" style="height:450px; width:100%; padding: 20px;">
+    @if (!Loaded)
+    {
+        <div class="loadingindicator" />
+    }
+
+    @if (Data != null)
+    {
+        <SfChart Theme=@Theme.MaterialDark >
+            <ChartEvents Loaded=@OnLoad />
+            <ChartPrimaryXAxis ValueType=@Syncfusion.Blazor.Charts.ValueType.DateTimeCategory IntervalType="IntervalType.Days" DesiredIntervals="16" LabelFormat="yyyy.MM.dd" EnableAutoIntervalOnZooming="false" />
+            <ChartBorder Width="0" />
+            <ChartAxes>
+                <ChartAxis RowIndex=0 OpposedPosition="false" Name="VolumeAxis" Visible="false" Maximum=@Max />
+            </ChartAxes>
+            <ChartRows>
+                <ChartRow Height="100%" />
+                <ChartRow Height="10%" />
+            </ChartRows>
+            <ChartSeriesCollection>
+                <ChartSeries DataSource=@Data Type=@ChartSeriesType.Candle XName="Date" YName="Close" High="High" Low="Low" Open="Open" Close="Close" />
+                <ChartSeries DataSource=@Data Type="ChartSeriesType.Column" XName="Date" YName="Volume" YAxisName="VolumeAxis" Fill=@Colors.Warning />
+            </ChartSeriesCollection>
+        </SfChart>
+    }
+</div>
+
+@code
+{
+    [Parameter]
+    public IEnumerable<StockPrice> Data { get; set; }
+
+    private bool Loaded { get; set; }
+
+    protected void OnLoad(LoadedEventArgs args)
+    {
+        Loaded = true;
+        StateHasChanged();
+    }
+
+    private long Max { get { return Data.Max(s => s.Volume) * 5; } }
+}
